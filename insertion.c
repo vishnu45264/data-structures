@@ -25,7 +25,7 @@ int main()
 	}
 	a[x]=v;
 	 printf("array elements after insertion\n");
-    for(i=1;i<n+1;i++)
+    for(i=0;i<n+1;i++)
     {
     printf("%d\t",a[i]);
 }
