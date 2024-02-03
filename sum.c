@@ -16,7 +16,5 @@ int main()
 		sum=sum+a[i];
 	}
 	printf("sum=%d",sum);
-	if(sum==7)
-	printf("\nthala for a reason");
 	return 0;
 }
