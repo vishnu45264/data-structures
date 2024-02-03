@@ -12,15 +12,15 @@ int main()
     }
     for(i=0;i<n;i++)
     {
-    	for(j=i+1;j<n;j++)
-    	{
-    		if(a[i]==a[j]&&i!=j)
-    		{
-    	       sum =sum+1;
-            	break;
-    		}
-		}
-	}
+    for(j=i+1;j<n;j++)
+       {
+    	 if(a[i]==a[j]&&i!=j)
+          {
+    	 sum =sum+1;
+            break;
+           }
+        }
+     }
 	 printf("Total no of duplicate elements = %d",sum);
 
 	return 0;
