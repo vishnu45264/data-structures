@@ -55,7 +55,7 @@ int main()
     int choice;
     while (1)
     {
-         printf("\n\n*linear queue*\n");
+         printf("\nlinear queue\n");
          printf("1. Enqueue\n2. Dequeue\n3. Display\n4. Exit");
          printf("\nEnter your choice:");
          scanf("%d",&choice);
